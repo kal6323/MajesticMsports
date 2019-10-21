@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Survey Title</h1>
+
+<p id="description">This is an awesome survey attempt!</p>
+
+<form id="survey-form">This is my Form
+  <div>
+    <label id="name-label" for="name">* Name:</label>
+     </div>
+    <div>
+     <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    <div>
+     <label id="email-label" for="email">* Email:</label>
+      </div>
+    <div>
+     <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+      </div>
+    <div>
+     <label id="number-label" for="number">* Number:</label>
+      </<div>
+      <div>
+     <input type="number" name="number" id="number" min="1" max="24" class="input-field" placeholder="#" required>
+      </div>
+    <div>
+      <label for="How horrible is this survey"> Which option best describes how horrible this survey is? </label>
+       </div>
+    <div>
+      <select id="dropdown" name="dropdown" class="dropdown" placeholder="pick one">
+      <option value>Select an option</option>
+      <option value="not">Not that bad</option>
+      <option value="work">it Needs some work</option>
+      <option value="not-pretty">Well it works but it's not pretty</option>
+      <option value="might-know">You might actually know what your doing</option>
+      <option value="the-5th">I'll plead the 5th!</option>
+      </select>
+       </div>
+      <div>
+        <label for="babyseals">How many baby seals would you like to club after seeing this?</label>
+       </div>
+        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="babyseals">1</label></li>
+        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="babyseals">2</label></li>
+        <li class="radio"><label><input name="radio-buttons" value="3"  type="radio" class="babyseals">3</label></li>
+       </div>
+       <div class="rowTab"></div>
+       <div class="labels">
+       <label for="preferences">Things that should be done to this site<br>(Check all that apply):</label>
+       </div>
+      <div>
+       <ul id="preferences" style="list-style: none;">
+        <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="shouldbe">Set it on fire and run away</label></li>
+        <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="shouldbe">Just pull the plug and let Skynet rule</label></li>
+        <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="shouldbe">Call Neo and fight to the death (is it really death though?)</label></li>
+        </ul>
+       </div>
+      <div>
+      <textarea name="textarea" rows="3" cols="50">Write something to me and let me know what your thinking</textarea>
+      </div>
+      <div>
+        <button id="submit" type="submit">Submit your form!</button>
+  </form>
